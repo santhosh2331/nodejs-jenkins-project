@@ -9,12 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Reshufowzi/nodejs-devops-project.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'npm install --prefix app'
