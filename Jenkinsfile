@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "nodejs-devops-app"
+        IMAGE_NAME = "nodejs-new"
         DOCKER_HUB = "sannthosh"
         TAG = "${BUILD_NUMBER}"
     }
